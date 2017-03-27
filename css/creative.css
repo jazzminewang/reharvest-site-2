@@ -149,6 +149,8 @@ aside {
     color: #F05F40;
   }
 }
+
+
 header {
   position: relative;
   min-width: 100%;
@@ -158,7 +160,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/produce.png');
+  background-image: url('../img/produce.png'); 
   text-align: center;
   color: white;
   
