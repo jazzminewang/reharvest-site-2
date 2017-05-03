@@ -10,7 +10,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 hr {
   border-color: #F05F40;
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Circular, 'Helvetica Neue', Arial, sans-serif;
 }
 p {
   font-size: 16px;
@@ -151,18 +151,22 @@ aside {
 }
 header {
   position: relative;
-  min-width: 100%;
-  min-height: 100%;
+  text-align: center;
+  color: white;
+  }
+.page-regular{
+  background-image: url('../img/produce.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
   background-position: center;
-  background-image: url('../img/produce.png');
-  text-align: center;
-  color: white;
-  
-
+}
+.page-about{
+    background-image: url('../img/cooking.jpg');
+  width: 100%;
 }
 header .header-content {
   position: relative;
@@ -189,7 +193,7 @@ header .header-content .header-content-inner p {
 }
 @media (min-width: 768px) {
   header {
-    min-height: 100%;
+    min-height: 80%;
   }
   header .header-content {
     position: absolute;
@@ -200,7 +204,7 @@ header .header-content .header-content-inner p {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
-    max-width: 1000px;
+    /*max-width: 1000px;*/
     margin-left: auto;
     margin-right: auto;
   }
