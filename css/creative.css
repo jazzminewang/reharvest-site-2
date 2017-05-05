@@ -156,6 +156,26 @@ header {
   text-align: center;
   color: white;
   }
+ .page-volunteer{
+  background-image: url('../img/volunteerhand.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center; 
+} 
+ .page-partners{
+  background-image: url('../img/brick.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center; 
+} 
 .page-regular{
   background-image: url('../img/produce.png');
   -webkit-background-size: cover;
@@ -168,7 +188,7 @@ header {
 
 }
 .page-about{
-    background-image: url('../img/cooking.jpg');
+    background-image: url('../img/sky.jpg');
   width: 100%;
 
 }
