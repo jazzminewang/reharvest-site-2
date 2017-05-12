@@ -168,7 +168,7 @@ header {
   background-position: center; 
 } 
  .page-partners{
-  background-image: url('../img/brick.jpg');
+  background-image: url('../img/floor.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -178,18 +178,18 @@ header {
   background-position: center; 
 } 
 .page-regular{
-  background-image: url('../img/produce.png');
+  background-image: url('../img/fruits.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
   background-position: center;
+    min-width: 100%;
+  min-height: 100%;
 
 }
 .page-about{
-    background-image: url('../img/sky.jpg');
+    background-image: url('../img/field.jpg');
   width: 100%;
 
 
